@@ -3,9 +3,9 @@ import { Container } from "semantic-ui-react";
 
 const Footer = () => {
   return (
-    <footer data-cy="footer">
+    <Container>
       <p data-cy="footer">Made with React {React.version}</p>
-    </footer>
+    </Container>
   );
 };
 
