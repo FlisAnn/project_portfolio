@@ -1,4 +1,3 @@
-import { should } from "chai";
 
 describe('User can navigate the app', () => {
   beforeEach(() => {
