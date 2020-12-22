@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Address Book",
+    "image": "./images/addressbook.jpeg",
+    "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress."
+  },
+
+  {
+    "id": 2,
+    "name": "ATM",
+    "image": "./images/atm.jpeg",
+    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec."
+  
+  },
+
+  {
+    "id": 3,
+    "name": "FizzBuzz",
+    "image": "./images/fizzbuzz.png",
+    "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five"
+
+  },
+
+  {
+    "id": 4,
+    "name": "Rock, Paper & Scissors",
+    "image": "./images/rps.png",
+    "description": "This application is written in React"
+
+  }
+]
