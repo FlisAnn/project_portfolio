@@ -1,32 +1,92 @@
 [
   {
     "id": 1,
+    "extra": "Javascript | Cypress  ",
     "name": "Address Book",
     "image": "./images/addressbook.jpeg",
-    "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress."
+    "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress.",
+    "url": "",
+    "github": ""
   },
 
   {
     "id": 2,
+    "extra": "Rails | Rspec",
     "name": "ATM",
     "image": "./images/atm.jpeg",
-    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec."
-  
+    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec.",
+    "url": "",
+    "github": ""
   },
 
   {
     "id": 3,
+    "extra": "Rails | Rspec",
     "name": "FizzBuzz",
     "image": "./images/fizzbuzz.png",
-    "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five"
-
+    "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five",
+    "url": "",
+    "github": ""
   },
 
   {
     "id": 4,
+    "extra": "React | Cypress | Axios ",
     "name": "Rock, Paper & Scissors",
     "image": "./images/rps.png",
-    "description": "This application is written in React"
+    "description": "This application is written in React",
+    "url": "https://rsp-challange.netlify.app/",
+    "github": "https://github.com/FlisAnn/rps"
+  },
 
+  {
+    "id": 5,
+    "extra": "React | Cypress | Semantic UI React | Axios ",
+    "name": "The Portfolio Challange",
+    "image": "./images/rps.png",
+    "description": "This application is written in React ",
+    "url": "",
+    "github": "https://github.com/FlisAnn/project_portfolio"
+  },
+
+  {
+    "id": 6,
+    "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
+    "name": "The Cooper Challenge",
+    "image": "./images/rps.png",
+    "description": "This application is written in React and Rails",
+    "url": "https://cooperchallange.netlify.app/",
+    "github": "https://github.com/FlisAnn/cooper_client"
+  },
+
+  {
+    "id": 7,
+    "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
+    "name": "The Slowfood Challenge",
+    "image": "./images/rps.png",
+    "description": "This application is written in React ",
+    "url": "https://hungrytigers.netlify.app/",
+    "github": ""
+  },
+
+  {
+    "id": 7,
+    "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
+    "name": "The Midcourse Challenge",
+    "image": "./images/rps.png",
+    "description": "This application is written in React",
+    "url": "https://flixcloud.netlify.app",
+    "github": "https://github.com/rithreaksa/flixcloud_client.git"
+  },
+
+  {
+    "id": 8,
+    "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
+    "name": "The newroom Challenge",
+    "image": "./images/rps.png",
+    "description": "This application is written in React",
+    "url": "",
+    "github": ""
   }
+
 ]
