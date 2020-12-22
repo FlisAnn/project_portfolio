@@ -5,8 +5,8 @@
     "name": "Address Book",
     "image": "./images/addressbook.jpeg",
     "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage, testing with Cypress.",
-    "url": "",
-    "github": ""
+    "url": "https://adressbookchallange.netlify.app/",
+    "github": "https://github.com/FlisAnn/Adressbook"
   },
 
   {
@@ -16,7 +16,7 @@
     "image": "./images/atm.jpeg",
     "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec.",
     "url": "",
-    "github": ""
+    "github": "https://github.com/FlisAnn/atm_challenge_2020"
   },
 
   {
@@ -26,7 +26,7 @@
     "image": "./images/fizzbuzz.png",
     "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five",
     "url": "",
-    "github": ""
+    "github": "https://github.com/FlisAnn/fizz_buzz"
   },
 
   {
@@ -86,7 +86,7 @@
     "image": "./images/rps.png",
     "description": "This application is written in React",
     "url": "",
-    "github": ""
+    "github": "https://github.com/FlisAnn/kitty_news_client_user"
   }
 
 ]
