@@ -15,20 +15,14 @@ const Header = () => {
         <Menu.Item 
         data-cy="about-tab" 
         name="about me"
-        as={Link}
+        as={NavLink}
         to={{ pathname: "/about" }} 
         />
         <Menu.Item 
         data-cy="projects-tab" 
-        name="my projects"
-        as={Link}
+        name="my project"
+        as={NavLink}
         to={{ pathname: "/projects" }} 
-        />
-        <Menu.Item 
-        data-cy="resume" 
-        name="my resume"
-        as={Link}
-        to={{ pathname: "/resume" }} 
         />
       </Menu>
     </Segment>

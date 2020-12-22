@@ -1,13 +1,12 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
 
-const About = () => {
+const Hello = () => {
   return (
     <Container>
-      <h1 data-cy="about-header">About Me</h1>
-   
+      <h1 data-cy="hello">Hello World</h1>
     </Container>
   );
 };
 
-export default About;
+export default Hello;
