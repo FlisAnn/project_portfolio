@@ -20,7 +20,7 @@ const Header = () => {
         />
         <Menu.Item 
         data-cy="projects-tab" 
-        name="my project"
+        name="my projects"
         as={NavLink}
         to={{ pathname: "/projects" }} 
         />

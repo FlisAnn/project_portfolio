@@ -43,7 +43,7 @@
     "id": 5,
     "extra": "React | Cypress | Semantic UI React | Axios ",
     "name": "The Portfolio Challange",
-    "image": "./images/rps.png",
+    "image": "./images/portfolio.png",
     "description": "This application is written in React ",
     "url": "",
     "github": "https://github.com/FlisAnn/project_portfolio"
@@ -53,7 +53,7 @@
     "id": 6,
     "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
     "name": "The Cooper Challenge",
-    "image": "./images/rps.png",
+    "image": "./images/cooper.png",
     "description": "This application is written in React and Rails",
     "url": "https://cooperchallange.netlify.app/",
     "github": "https://github.com/FlisAnn/cooper_client"
@@ -63,7 +63,7 @@
     "id": 7,
     "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
     "name": "The Slowfood Challenge",
-    "image": "./images/rps.png",
+    "image": "./images/slowfood.png",
     "description": "This application is written in React ",
     "url": "https://hungrytigers.netlify.app/",
     "github": ""
@@ -73,7 +73,7 @@
     "id": 7,
     "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
     "name": "The Midcourse Challenge",
-    "image": "./images/rps.png",
+    "image": "./images/halfcourse.png",
     "description": "This application is written in React",
     "url": "https://flixcloud.netlify.app",
     "github": "https://github.com/rithreaksa/flixcloud_client.git"
@@ -83,7 +83,7 @@
     "id": 8,
     "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
     "name": "The newroom Challenge",
-    "image": "./images/rps.png",
+    "image": "./images/kittynews.png",
     "description": "This application is written in React",
     "url": "",
     "github": "https://github.com/FlisAnn/kitty_news_client_user"
