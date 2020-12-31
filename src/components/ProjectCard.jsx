@@ -5,15 +5,15 @@ const ProjectCard = ({ project }) => {
   return (
     <Card.Group>
       <Card>
-        <Image src={project.image} wrapped ui={false} />
+        <Image src={project.image} wrapped ui={false} size="mini" />
         <Card.Content>
-          <Card.Header>{project.name}</Card.Header>
+          <Card.Header textAlign="center">{project.name}</Card.Header>
           <Card.Meta>{project.extra}</Card.Meta>
-          <Card.Description>{project.description}</Card.Description>
+          <Card.Description size="small">{project.description}</Card.Description>
         </Card.Content>
         <Card.Content>
           <a href={project.url}>
-            <Icon name="external" id={`urlIcon-${project.id}`} />
+            <Icon name="world" id={`urlIcon-${project.id}`} />
           </a>
           <a href={project.github}>
             <Icon name="github square" id={`gitIcon-${project.id}`} />

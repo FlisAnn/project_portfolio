@@ -70,7 +70,7 @@
   },
 
   {
-    "id": 7,
+    "id": 8,
     "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
     "name": "The Midcourse Challenge",
     "image": "./images/halfcourse.png",
@@ -80,7 +80,7 @@
   },
 
   {
-    "id": 8,
+    "id": 9,
     "extra": "React | Cypress | Semantic UI React | Rails | Rspec | Axios ",
     "name": "The newroom Challenge",
     "image": "./images/kittynews.png",
