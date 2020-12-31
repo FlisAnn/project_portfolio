@@ -49,7 +49,6 @@ const About = () => {
 
         <Item>
           <Item.Image size="tiny" src="./images/blocket.jpeg" />
-
           <Item.Content>
             <Item.Header as="a">Test Manager</Item.Header>
             <Item.Meta>
@@ -67,7 +66,6 @@ const About = () => {
 
         <Item>
           <Item.Image size="tiny" src="./images/bwin.jpeg" />
-
           <Item.Content>
             <Item.Header as="a">Test Lead & QA Engineer</Item.Header>
             <Item.Meta>
@@ -78,7 +76,6 @@ const About = () => {
               <Label>Session Based Testing</Label>
               <Label>Scrum</Label>
               <Label>Kanban</Label>
-              <Label>Test driven Development</Label>
               <Label>Scrum Master</Label>
             </Item.Extra>
           </Item.Content>
@@ -86,7 +83,8 @@ const About = () => {
       </Item.Group>
 
       <Divider horizontal>Education</Divider>
-      <Item.Group>
+      
+      <Item.Group divided>
         <Item>
           <Item.Image size="tiny" src="./images/craft.jpeg" />
 
@@ -110,7 +108,6 @@ const About = () => {
 
         <Item>
           <Item.Image size="tiny" src="./images/sh.jpeg" />
-
           <Item.Content>
             <Item.Header as="a">Södertörns Högskola</Item.Header>
             <Item.Meta>
@@ -127,11 +124,13 @@ const About = () => {
             </Item.Extra>
           </Item.Content>
         </Item>
+      </Item.Group>
 
-        <Divider horizontal>Licenses & certifications</Divider>
+      <Divider horizontal>Licenses & certifications</Divider>
+      
+      <Item.Group divided>
         <Item>
           <Item.Image size="tiny" src="./images/sa.jpeg" />
-
           <Item.Content>
             <Item.Header as="a">Certified Scrum Product Owner</Item.Header>
             <Item.Meta>
@@ -142,7 +141,6 @@ const About = () => {
 
         <Item>
           <Item.Image size="tiny" src="./images/sa.jpeg" />
-
           <Item.Content>
             <Item.Header as="a">Certified Scrum Master</Item.Header>
             <Item.Meta>
@@ -153,11 +151,20 @@ const About = () => {
 
         <Item>
           <Item.Image size="tiny" src="./images/istqb.jpeg" />
-
           <Item.Content>
             <Item.Header as="a">ISTQB Certified Tester</Item.Header>
             <Item.Meta>
               <span>2008</span>
+            </Item.Meta>
+          </Item.Content>
+        </Item>
+
+        <Item>
+          <Item.Image />
+          <Item.Content>
+            <Item.Header></Item.Header>
+            <Item.Meta>
+              
             </Item.Meta>
           </Item.Content>
         </Item>

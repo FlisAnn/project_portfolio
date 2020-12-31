@@ -15,7 +15,7 @@
     "name": "ATM",
     "image": "./images/atm.jpeg",
     "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec.",
-    "url": "",
+    "url": "null",
     "github": "https://github.com/FlisAnn/atm_challenge_2020"
   },
 
