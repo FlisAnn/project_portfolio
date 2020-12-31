@@ -3,17 +3,17 @@ describe("User can navigate the app", () => {
     cy.visit("/");
   });
 
-  describe("to About tab and it", () => {
+  describe("to Resume tab and it", () => {
     beforeEach(() => {
-      cy.get("[data-cy='about-tab']").click();
+      cy.get("[data-cy='resume-tab']").click();
     });
 
-    it("displays About Me header", () => {
-      cy.get("[data-cy='about-header']").should("contain", "About Me");
+    it("displays Resume header", () => {
+      cy.get("[data-cy='resume-header']").should("contain", "My Resume");
     });
 
     it("displays component name in url", () => {
-      cy.url().should("contain", "about");
+      cy.url().should("contain", "resume");
     });
 
     it("does not display My Projects header", () => {
@@ -38,8 +38,8 @@ describe("User can navigate the app", () => {
       cy.url().should("contain", "projects");
     });
 
-    it("does not display About Me header", () => {
-      cy.get("[data-cy='about-header']").should("not.exist");
+    it("does not display Resume header", () => {
+      cy.get("[data-cy='resume-header']").should("not.exist");
     });
 
     it("does not display Hello World", () => {
@@ -49,7 +49,7 @@ describe("User can navigate the app", () => {
   
   describe("back to My Portfolio/Hello tab and it", () => {
     beforeEach(() => {
-      cy.get("[data-cy='about-tab']").click();
+      cy.get("[data-cy='resume-tab']").click();
       cy.get("[data-cy='header']").click();
     });
 
@@ -58,11 +58,11 @@ describe("User can navigate the app", () => {
     });
 
     it("displays correct url", () => {
-      cy.url().should("not.contain", "projects").and("not.contain", "about");
+      cy.url().should("not.contain", "projects").and("not.contain", "resume");
     });
 
-    it("does not display About Me header", () => {
-      cy.get("[data-cy='about-header']").should("not.exist");
+    it("does not display Resume header", () => {
+      cy.get("[data-cy='resume-header']").should("not.exist");
     });
 
     it("does not display My Projects header", () => {

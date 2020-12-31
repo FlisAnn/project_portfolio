@@ -4,7 +4,6 @@ import { Container, Item, Label, Divider } from "semantic-ui-react";
 const About = () => {
   return (
     <Container>
-      {/* <h1 data-cy="about-header">About Me</h1> */}
       <h1 data-cy="resume-header">My Resume</h1>
       <Divider horizontal>Work Experience</Divider>
       <Item.Group divided>
@@ -85,7 +84,7 @@ const About = () => {
           </Item.Content>
         </Item>
       </Item.Group>
-      
+
       <Divider horizontal>Education</Divider>
       <Item.Group>
         <Item>
@@ -162,7 +161,6 @@ const About = () => {
             </Item.Meta>
           </Item.Content>
         </Item>
-
       </Item.Group>
     </Container>
   );

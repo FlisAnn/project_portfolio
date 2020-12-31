@@ -13,10 +13,10 @@ const Header = () => {
         to={{ pathname: "/" }} 
         />
         <Menu.Item 
-        data-cy="about-tab" 
-        name="about me"
+        data-cy="resume-tab" 
+        name="resume"
         as={NavLink}
-        to={{ pathname: "/about" }} 
+        to={{ pathname: "/resume" }} 
         />
         <Menu.Item 
         data-cy="projects-tab" 
