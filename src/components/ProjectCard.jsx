@@ -5,11 +5,11 @@ const ProjectCard = ({ project }) => {
   return (
     <Card.Group>
       <Card>
-        <Image src={project.image} wrapped ui={false} size="mini" />
         <Card.Content>
+        <Image src={project.image} size="medium" />
           <Card.Header textAlign="center">{project.name}</Card.Header>
           <Card.Meta>{project.extra}</Card.Meta>
-          <Card.Description size="small">{project.description}</Card.Description>
+          <Card.Description>{project.description}</Card.Description>
         </Card.Content>
         <Card.Content>
           <a href={project.url}>

@@ -34,7 +34,7 @@
     "extra": "React | Cypress | Axios ",
     "name": "Rock, Paper & Scissors",
     "image": "./images/rps.png",
-    "description": "This application is written in React",
+    "description": "The good old Rock, Paper & Scissors. This application is written in React and tested with Cypress",
     "url": "https://rsp-challange.netlify.app/",
     "github": "https://github.com/FlisAnn/rps"
   },
@@ -44,7 +44,7 @@
     "extra": "React | Cypress | Semantic UI React | Axios ",
     "name": "The Portfolio Challange",
     "image": "./images/portfolio.png",
-    "description": "This application is written in React ",
+    "description": "Building my own Portfolio page to showcase my projects. Hint: You looking at it.",
     "url": "",
     "github": "https://github.com/FlisAnn/project_portfolio"
   },
