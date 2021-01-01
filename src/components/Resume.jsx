@@ -1,10 +1,37 @@
 import React from "react";
-import { Container, Item, Label, Divider } from "semantic-ui-react";
+import { Container, Item, Label, Divider, Icon } from "semantic-ui-react";
 
 const About = () => {
   return (
     <Container>
       <h1 data-cy="resume-header">My Resume</h1>
+      <Divider horizontal>Contact Information</Divider>
+      <Item.Group divided relaxed>
+        <Item>
+          <Item.Content>
+            <Item.Meta>
+            <a href="https://www.linkedin.com/in/annflismark/">
+            <Icon circular color='teal' name="linkedin alternate" />
+              Ann Flismark
+              </a>
+            </Item.Meta>
+            </Item.Content>
+            <Item.Content>
+            <Item.Meta>
+              
+            <Icon circular color='teal' name="envelope" />
+              ann.flismark@gmail.com
+            </Item.Meta>
+          </Item.Content>
+          <Item.Content>
+            <Item.Meta>
+            <Icon circular color='teal' name="mobile alternate" />
+                 +46 762 350 512
+            </Item.Meta>
+            </Item.Content>
+        </Item>
+</Item.Group>
+
       <Divider horizontal>Work Experience</Divider>
       <Item.Group divided>
         <Item>
