@@ -27,7 +27,7 @@ class Projects extends Component {
       <Container>
         <h1 data-cy="projects-header">My Projects</h1>
         <Divider hidden></Divider>
-        <Grid centered columns={3}>
+        <Grid columns={3}>
           {projectsList}
         </Grid>
         <Divider hidden></Divider>
