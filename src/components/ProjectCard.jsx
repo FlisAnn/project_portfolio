@@ -6,7 +6,7 @@ const ProjectCard = ({ project }) => {
     <Card.Group>
       <Card>
         <Card.Content>
-        <Image src={project.image} size="medium" />
+          <Image src={project.image} size="medium" />
           <Card.Header textAlign="center">{project.name}</Card.Header>
           <Card.Meta>{project.extra}</Card.Meta>
           <Card.Meta>{project.extra2}</Card.Meta>

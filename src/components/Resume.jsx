@@ -10,27 +10,26 @@ const About = () => {
         <Item>
           <Item.Content>
             <Item.Meta>
-            <a href="https://www.linkedin.com/in/annflismark/">
-            <Icon circular color='blue' name="linkedin alternate" />
-              Ann Flismark
+              <a href="https://www.linkedin.com/in/annflismark/">
+                <Icon circular color="blue" name="linkedin alternate" />
+                Ann Flismark
               </a>
             </Item.Meta>
-            </Item.Content>
-            <Item.Content>
+          </Item.Content>
+          <Item.Content>
             <Item.Meta>
-              
-            <Icon circular color='blue' name="envelope" />
+              <Icon circular color="blue" name="envelope" />
               ann.flismark@gmail.com
             </Item.Meta>
           </Item.Content>
           <Item.Content>
             <Item.Meta>
-            <Icon circular color='blue' name="mobile alternate" />
-                 +46 762 350 512
+              <Icon circular color="blue" name="mobile alternate" />
+              +46 762 350 512
             </Item.Meta>
-            </Item.Content>
+          </Item.Content>
         </Item>
-</Item.Group>
+      </Item.Group>
 
       <Divider horizontal>Work Experience</Divider>
       <Item.Group divided>
@@ -110,7 +109,7 @@ const About = () => {
       </Item.Group>
 
       <Divider horizontal>Education</Divider>
-      
+
       <Item.Group divided>
         <Item>
           <Item.Image size="tiny" src="./images/craft.jpeg" />
@@ -156,7 +155,7 @@ const About = () => {
       </Item.Group>
 
       <Divider horizontal>Licenses & certifications</Divider>
-      
+
       <Item.Group divided>
         <Item>
           <Item.Image size="tiny" src="./images/sa.jpeg" />
@@ -192,9 +191,7 @@ const About = () => {
           <Item.Image />
           <Item.Content>
             <Item.Header></Item.Header>
-            <Item.Meta>
-              
-            </Item.Meta>
+            <Item.Meta></Item.Meta>
           </Item.Content>
         </Item>
       </Item.Group>

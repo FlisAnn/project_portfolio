@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Divider, Header, Grid } from "semantic-ui-react";
+import { Container, Divider, Grid } from "semantic-ui-react";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
 class Projects extends Component {
@@ -27,9 +27,7 @@ class Projects extends Component {
       <Container>
         <h1 data-cy="projects-header">My Projects</h1>
         <Divider hidden></Divider>
-        <Grid columns={3}>
-          {projectsList}
-        </Grid>
+        <Grid columns={3}>{projectsList}</Grid>
         <Divider hidden></Divider>
       </Container>
     );
