@@ -125,10 +125,12 @@ const About = () => {
             </Item.Description>
             <Item.Extra>
               <Label>React</Label>
-              <Label>Ruby</Label>
+              <Label>Ruby on Rails</Label>
               <Label>Cypress</Label>
               <Label>RSpec</Label>
               <Label>Scrum</Label>
+              <Label>GitHub</Label>
+              <Label>Pair programming</Label>
             </Item.Extra>
           </Item.Content>
         </Item>
