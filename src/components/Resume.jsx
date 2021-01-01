@@ -11,7 +11,7 @@ const About = () => {
           <Item.Content>
             <Item.Meta>
             <a href="https://www.linkedin.com/in/annflismark/">
-            <Icon circular color='teal' name="linkedin alternate" />
+            <Icon circular color='blue' name="linkedin alternate" />
               Ann Flismark
               </a>
             </Item.Meta>
@@ -19,13 +19,13 @@ const About = () => {
             <Item.Content>
             <Item.Meta>
               
-            <Icon circular color='teal' name="envelope" />
+            <Icon circular color='blue' name="envelope" />
               ann.flismark@gmail.com
             </Item.Meta>
           </Item.Content>
           <Item.Content>
             <Item.Meta>
-            <Icon circular color='teal' name="mobile alternate" />
+            <Icon circular color='blue' name="mobile alternate" />
                  +46 762 350 512
             </Item.Meta>
             </Item.Content>
