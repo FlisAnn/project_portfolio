@@ -20,7 +20,7 @@ describe("User can navigate the app", () => {
       cy.get("[data-cy='projects-header']").should("not.exist");
     });
 
-    it("does not display Hello World", () => {
+    it("does not display Welcome", () => {
       cy.get("[data-cy='hello']").should("not.exist");
     });
   });
@@ -42,19 +42,19 @@ describe("User can navigate the app", () => {
       cy.get("[data-cy='resume-header']").should("not.exist");
     });
 
-    it("does not display Hello World", () => {
+    it("does not display Welcome", () => {
       cy.get("[data-cy='hello']").should("not.exist");
     });
   });
   
-  describe("back to My Portfolio/Hello tab and it", () => {
+  describe("back to Home/Hello tab and it", () => {
     beforeEach(() => {
       cy.get("[data-cy='resume-tab']").click();
       cy.get("[data-cy='header']").click();
     });
 
-    it("displays Hello World", () => {
-      cy.get("[data-cy='hello']").should("contain", "Hello World");
+    it("displays Welcome", () => {
+      cy.get("[data-cy='hello']").should("contain", "Welcome");
     });
 
     it("displays correct url", () => {
