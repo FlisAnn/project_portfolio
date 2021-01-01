@@ -13,14 +13,29 @@ const ProjectCard = ({ project }) => {
           <Card.Description>{project.description}</Card.Description>
         </Card.Content>
         <Card.Content>
-          <a href={project.url}>
-            <Icon name="chrome"  color="green" size="large" id={`urlIcon-${project.id}`} />
+          <a href={project.url} target="_blank" rel="noopener noreferrer">
+            <Icon
+              name="chrome"
+              color="purple"
+              size="large"
+              id={`urlIcon-${project.id}`}
+            />
           </a>
-          <a href={project.github}>
-            <Icon name="github square" color="teal" size="large" id={`gitIcon-${project.id}`} />
+          <a href={project.github} target="_blank" rel="noopener noreferrer">
+            <Icon
+              name="github square"
+              color="violet"
+              size="large"
+              id={`gitIcon-${project.id}`}
+            />
           </a>
-          <a href={project.github2}>
-            <Icon name="github square" color="blue" size="large" id={`gitIcon-${project.id}`} />
+          <a href={project.github2} target="_blank" rel="noopener noreferrer">
+            <Icon
+              name="github square"
+              color="pink"
+              size="large"
+              id={`gitIcon-${project.id}`}
+            />
           </a>
         </Card.Content>
       </Card>

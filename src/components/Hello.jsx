@@ -7,7 +7,7 @@ const Hello = () => {
   return (
     <Container>
       <h1 data-cy="hello">Welcome </h1>
-      <Segment padded="very" color="teal">
+      <Segment padded="very">
         <h2>
           <Image src={src} size="tiny" spaced />
           Who am I?
