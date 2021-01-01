@@ -17,7 +17,6 @@
     "name": "ATM",
     "image": "./images/atm.jpeg",
     "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec.",
-    "url": "null",
     "github": "https://github.com/FlisAnn/atm_challenge_2020"
   },
 
@@ -28,7 +27,6 @@
     "name": "FizzBuzz",
     "image": "./images/fizzbuzz.png",
     "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five",
-    "url": "",
     "github": "https://github.com/FlisAnn/fizz_buzz"
   },
 
@@ -47,10 +45,10 @@
     "id": 5,
     "extra": "| React | Cypress | Semantic UI React |",
     "extra2": "| Axios |",
-    "name": "The Portfolio Challange",
+    "name": "The Portfolio Challenge",
     "image": "./images/portfolio.png",
     "description": "Building my own Portfolio page to showcase my projects. Hint: You looking at it.",
-    "url": "",
+    "url": "https://annflismark.netlify.app/",
     "github": "https://github.com/FlisAnn/project_portfolio"
   },
 
@@ -62,7 +60,8 @@
     "image": "./images/cooper.png",
     "description": "This is a fullstack project using Rails as backend and React as fronted. ",
     "url": "https://cooperchallange.netlify.app/",
-    "github": "https://github.com/FlisAnn/cooper_client"
+    "github": "https://github.com/FlisAnn/cooper_client",
+    "github2": "https://github.com/FlisAnn/cooper_challenge"
   },
 
   {
@@ -73,7 +72,8 @@
     "image": "./images/slowfood.png",
     "description": "A first take on an App where a user can see a Menu and when logging in also place an order",
     "url": "https://hungrytigers.netlify.app/",
-    "github": ""
+    "github": "https://github.com/FlisAnn/slowfood_client_team2_october2020",
+    "github2": "https://github.com/FlisAnn/slowfood_api_2020"
   },
 
   {
@@ -84,7 +84,9 @@
     "image": "./images/halfcourse.png",
     "description": "A user can see a list of movies and if the user signs up it can also search for films. If the user wants to become a paying member this is also possible ",
     "url": "https://flixcloud.netlify.app",
-    "github": "https://github.com/rithreaksa/flixcloud_client.git"
+    "github": "https://github.com/FlisAnn/flixcloud_client",
+    "github2": "https://github.com/FlisAnn/flixcloud_api"
+    
   },
 
   {
@@ -95,7 +97,9 @@
     "image": "./images/kittynews.png",
     "description": "A newspaper that uses both geolocation as well stripe.",
     "url": "",
-    "github": "https://github.com/FlisAnn/kitty_news_client_user"
+    "github": "https://github.com/FlisAnn/kitty_news_client_user",
+    "github2": "https://github.com/FlisAnn/kitty_news_api"
+
   }
 
 ]
