@@ -1,18 +1,23 @@
 import React from "react";
-import { Container, Segment } from "semantic-ui-react";
-
+import { Container, Header, Image, Segment } from "semantic-ui-react";
+const src = "./images/ann_square.png"
 const Hello = () => {
   return (
     <Container>
-      <h1 data-cy="hello">Welcome</h1>
-      <h2>Who am I?</h2>
+      <h1 data-cy="hello">Welcome </h1>
+      <Segment 
+      padded="very"
+      color="teal">
+       <h2><Image src={src} size='tiny' spaced />Who am I?</h2>
       <p>
         My name is Ann Flismark and I am a student attending a 12 weeks boot
         camp at Craft Academy. Here I'm learning various technics as ruby, html,
-        css, react, test driven development and much more. We pair program in
+        css, react, test driven development and much more. 
+        We pair program in
+      
         almost all of our projects and use tools as GitHub, Netlify, Heroku.
       </p>
-      <h2>The Switch</h2>
+      <h2>Making a change</h2>
       <p>
         I have been working in IT for 13 years as a Test Manager and QA
         Engineer. Due to Corona my job disappeared in March 2020. After
@@ -31,6 +36,7 @@ const Hello = () => {
         a very eager learner who is hungry for writing code and creating awesome
         software.
       </p>
+      </Segment>
     </Container>
   );
 };

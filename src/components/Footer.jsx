@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p data-cy="footer" id="footer">
-        Made with React {React.version}
+        Made with React {React.version} by Ann Flismark
       </p>
     </footer>
   );
