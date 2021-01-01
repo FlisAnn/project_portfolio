@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu } from "semantic-ui-react";
+import { Menu, Segment } from "semantic-ui-react";
 import { NavLink, Link } from "react-router-dom";
 
 class Header extends Component {
@@ -11,8 +11,8 @@ class Header extends Component {
     const { activeItem } = this.state;
 
     return (
-      <>
-        <Menu stackable color="teal">
+      <Segment inverted>
+        <Menu stackable inverted secondary size="massive">
           <Menu.Item
             data-cy="header"
             name="home"
@@ -38,7 +38,7 @@ class Header extends Component {
             to={{ pathname: "/projects" }}
           />
         </Menu>
-      </>
+      </Segment>
     );
   }
 }
