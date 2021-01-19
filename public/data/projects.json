@@ -1,67 +1,26 @@
 [
   {
-    "id": 1,
-    "extra": "| Javascript | Cypress | ",
-    "extra2": "",
-    "name": "Address Book",
-    "image": "./images/addressbook.jpeg",
-    "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage",
-    "url": "https://adressbookchallange.netlify.app/",
-    "github": "https://github.com/FlisAnn/Adressbook"
-  },
-
-  {
-    "id": 2,
-    "extra": "| Rails | Rspec |",
-    "extra2": "",
-    "name": "ATM",
-    "image": "./images/atm.jpeg",
-    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec.",
-    "github": "https://github.com/FlisAnn/atm_challenge_2020"
-  },
-
-  {
-    "id": 3,
-    "extra": "| Rails | Rspec |",
-    "extra2": "",
-    "name": "FizzBuzz",
-    "image": "./images/fizzbuzz.png",
-    "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five",
-    "github": "https://github.com/FlisAnn/fizz_buzz"
-  },
-
-  {
-    "id": 4,
+    "id": 9,
     "extra": "| React | Cypress | Semantic UI React |",
-    "extra2": "| Axios |",
-    "name": "Rock, Paper & Scissors",
-    "image": "./images/rps.png",
-    "description": "The good old Rock, Paper & Scissors. This application is written in React and tested with Cypress",
-    "url": "https://rsp-challange.netlify.app/",
-    "github": "https://github.com/FlisAnn/rps"
+    "extra2": "| Axios | Rails | Rspec | Stripe |",
+    "name": "The newsroom Challenge",
+    "image": "./images/kittynews.png",
+    "description": "A newspaper that uses both geolocation as well stripe.",
+    "url": "",
+    "github": "https://github.com/FlisAnn/kitty_news_client_user",
+    "github2": "https://github.com/FlisAnn/kitty_news_api"
   },
 
   {
-    "id": 5,
+    "id": 8,
     "extra": "| React | Cypress | Semantic UI React |",
-    "extra2": "| Axios |",
-    "name": "The Portfolio Challenge",
-    "image": "./images/portfolio.png",
-    "description": "Building my own Portfolio page to showcase my projects. Hint: You looking at it.",
-    "url": "https://annflismark.netlify.app/",
-    "github": "https://github.com/FlisAnn/project_portfolio"
-  },
-
-  {
-    "id": 6,
-    "extra": "| React | Cypress | Semantic UI React |",
-    "extra2": "| Axios | Rails | Rspec |",
-    "name": "The Cooper Challenge",
-    "image": "./images/cooper.png",
-    "description": "This is a fullstack project using Rails as backend and React as fronted. ",
-    "url": "https://cooperchallange.netlify.app/",
-    "github": "https://github.com/FlisAnn/cooper_client",
-    "github2": "https://github.com/FlisAnn/cooper_challenge"
+    "extra2": "| Axios | Rails | Rspec | Stripe |",
+    "name": "The Midcourse Challenge",
+    "image": "./images/halfcourse.png",
+    "description": "A user can see a list of movies and if the user signs up it can also search for films. If the user wants to become a paying member this is also possible ",
+    "url": "https://flixcloud.netlify.app",
+    "github": "https://github.com/FlisAnn/flixcloud_client",
+    "github2": "https://github.com/FlisAnn/flixcloud_api"
   },
 
   {
@@ -77,29 +36,67 @@
   },
 
   {
-    "id": 8,
+    "id": 6,
     "extra": "| React | Cypress | Semantic UI React |",
-    "extra2": "| Axios | Rails | Rspec | Stripe |",
-    "name": "The Midcourse Challenge",
-    "image": "./images/halfcourse.png",
-    "description": "A user can see a list of movies and if the user signs up it can also search for films. If the user wants to become a paying member this is also possible ",
-    "url": "https://flixcloud.netlify.app",
-    "github": "https://github.com/FlisAnn/flixcloud_client",
-    "github2": "https://github.com/FlisAnn/flixcloud_api"
-    
+    "extra2": "| Axios | Rails | Rspec |",
+    "name": "The Cooper Challenge",
+    "image": "./images/cooper.png",
+    "description": "This is a fullstack project using Rails as backend and React as fronted. ",
+    "url": "https://cooperchallange.netlify.app/",
+    "github": "https://github.com/FlisAnn/cooper_client",
+    "github2": "https://github.com/FlisAnn/cooper_challenge"
   },
 
   {
-    "id": 9,
+    "id": 5,
     "extra": "| React | Cypress | Semantic UI React |",
-    "extra2": "| Axios | Rails | Rspec | Stripe |",
-    "name": "The newsroom Challenge",
-    "image": "./images/kittynews.png",
-    "description": "A newspaper that uses both geolocation as well stripe.",
-    "url": "",
-    "github": "https://github.com/FlisAnn/kitty_news_client_user",
-    "github2": "https://github.com/FlisAnn/kitty_news_api"
+    "extra2": "| Axios |",
+    "name": "The Portfolio Challenge",
+    "image": "./images/portfolio.png",
+    "description": "Building my own Portfolio page to showcase my projects. Hint: You looking at it.",
+    "url": "https://annflismark.netlify.app/",
+    "github": "https://github.com/FlisAnn/project_portfolio"
+  },
 
+  {
+    "id": 4,
+    "extra": "| React | Cypress | Semantic UI React |",
+    "extra2": "| Axios |",
+    "name": "Rock, Paper & Scissors",
+    "image": "./images/rps.png",
+    "description": "The good old Rock, Paper & Scissors. This application is written in React and tested with Cypress",
+    "url": "https://rsp-challange.netlify.app/",
+    "github": "https://github.com/FlisAnn/rps"
+  },
+
+  {
+    "id": 3,
+    "extra": "| Rails | Rspec |",
+    "extra2": "",
+    "name": "FizzBuzz",
+    "image": "./images/fizzbuzz.png",
+    "description": "This project is written in Ruby and tested using rspec. FizzBuzz checks if a number is equal and or dividable by five",
+    "github": "https://github.com/FlisAnn/fizz_buzz"
+  },
+
+  {
+    "id": 2,
+    "extra": "| Rails | Rspec |",
+    "extra2": "",
+    "name": "ATM",
+    "image": "./images/atm.jpeg",
+    "description": "This project simulates an ATM where you can withdraw som $$$. It is written in Ruby and is tested with rspec.",
+    "github": "https://github.com/FlisAnn/atm_challenge_2020"
+  },
+
+  {
+    "id": 1,
+    "extra": "| Javascript | Cypress | ",
+    "extra2": "",
+    "name": "Address Book",
+    "image": "./images/addressbook.jpeg",
+    "description": "In this project I used advanced Javascript concepts and ES6+ Features, persisting data using LocalStorage",
+    "url": "https://adressbookchallange.netlify.app/",
+    "github": "https://github.com/FlisAnn/Adressbook"
   }
-
 ]
