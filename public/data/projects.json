@@ -5,10 +5,10 @@
     "extra2": "| Axios | Rails | Rspec | Stripe |",
     "name": "The newsroom Challenge",
     "image": "./images/kittynews.png",
-    "description": "A newspaper that uses both geolocation as well stripe.",
-    "url": "",
-    "github": "https://github.com/FlisAnn/kitty_news_client_user",
-    "github2": "https://github.com/FlisAnn/kitty_news_api"
+    "description": "A newspaper with happy news and a paywall.",
+    "url": "https://dream-time-news-user.netlify.app/",
+    "github": "https://github.com/FlisAnn/dream_time_news_client_user",
+    "github2": "https://github.com/FlisAnn/dream_time_news_api"
   },
 
   {
