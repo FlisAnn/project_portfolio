@@ -27,9 +27,9 @@ const Hello = () => {
           and software and know like I have valuable experiences that I could
           bring with me into my new profession.
         </p>
-        <h2>Now what?</h2>
+        <h2>And now?</h2>
         <p>
-          My boot camp finishes in the beginning of February 2021. From then on
+          My boot camp finished in the beginning of February 2021. From now on
           I am at the markets disposal. I would really like to work using the
           programming languages I've learned during these months such as React
           and Ruby on Rails. I enjoy working in teams and pair programming has
