@@ -13,11 +13,10 @@ const Hello = () => {
           Who am I?
         </h2>
         <p>
-          My name is Ann Flismark and I am a student attending a 12 weeks boot
-          camp at Craft Academy. Here I'm learning various technics as ruby,
-          html, css, react, test driven development and much more. We pair
-          program in almost all of our projects and use tools as GitHub,
-          Netlify, Heroku.
+          My name is Ann Flismark and I have just attended a 12 weeks boot
+          camp at Craft Academy. Here I've learned ruby,html, css, react, 
+          test driven development and much more. I have been pair programming in almost 
+          all of the projects and use tools as GitHub, Netlify, Heroku.
         </p>
         <h2>Making a change</h2>
         <p>
